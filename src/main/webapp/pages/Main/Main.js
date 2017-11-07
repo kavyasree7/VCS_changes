@@ -16,12 +16,7 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
 
 }]);
 
-Application.$controller("EmployeeTable1Controller", ["$scope",
-	function($scope) {
-		"use strict";
-		$scope.ctrlScope = $scope;
-	}
-]);
+
 
 Application.$controller("EmployeeLiveForm1Controller", ["$scope",
 	function($scope) {
