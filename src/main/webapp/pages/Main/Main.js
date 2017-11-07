@@ -15,12 +15,3 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
     };
 
 }]);
-
-
-
-Application.$controller("EmployeeLiveForm1Controller", ["$scope",
-	function($scope) {
-		"use strict";
-		$scope.ctrlScope = $scope;
-	}
-]);
